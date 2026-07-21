@@ -1,8 +1,15 @@
 import React from 'react'
+import Card from './Card'
 
 const Mainright = () => {
   return (
-    <div className='h-0.1111/10 w-0.1333/10 bg-yellow-700'>Mainright</div>
+    <div className='relative  h-[80vh] w-[80vw]'>
+      <div className='flex h-full justify-evenly'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
   )
 }
 

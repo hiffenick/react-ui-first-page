@@ -4,7 +4,7 @@ import Mainright from './Mainright'
 
 const Mainleft = () => {
   return (
-    <div className='m-5 p-5 h-9/10 w-2/10 text-black flex flex-col justify-between bg-red-600'>
+    <div className='m-5 p-5 h-[80vh] w-2/10 text-black flex flex-col justify-between'>
         <div>
             <h2 className='text-[30px] font-bold'>Prospective <br />customer <br />segmentation</h2>
             <p className="mt-4">
